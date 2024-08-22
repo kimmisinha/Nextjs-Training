@@ -4,6 +4,7 @@ import Image from 'next/image';
 import logoImg from '@/assets/logo.png';
 import styles from './Mainheader.module.css'
 import Mainheaderbackground from './main-header-background';
+import ImageSlideshow from '../images/ image-slideshow';
 
 function Mainheader() {
   return (
