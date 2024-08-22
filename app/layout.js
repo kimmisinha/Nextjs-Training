@@ -12,7 +12,6 @@ export default function RootLayout({ children }) {
       <body>
         <div id="page">
           <Mainheader />
-
           {children}
         </div>
       </body>
