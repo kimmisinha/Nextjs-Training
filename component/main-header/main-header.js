@@ -1,14 +1,22 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 import logoImg from '@/assets/logo.png';
-import styles from './Mainheader.module.css';
- 
+import styles from './Mainheader.module.css'
+import Mainheaderbackground from './main-header-background';
+
 function Mainheader() {
   return (
     <div>
+      <Mainheaderbackground/>
       <header className={styles.header}>
         <Link href="/">
-          <img src={logoImg.src} alt="A plate with food on it" />
+          <Image
+            src={logoImg}
+            alt="A plate with food on it"
+            height={50} 
+            width={50}  
+          />
         </Link>
         <nav>
           <ul className={styles.nav}>
