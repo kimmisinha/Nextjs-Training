@@ -9,7 +9,6 @@ export default function CommunityPage() {
   return (
     <>
       <header className={classes.header}>
-        
         <h1>
           One shared passion: <span className={classes.highlight}>Food</span>
         </h1>
